@@ -7,7 +7,6 @@
     "dev": "vite",
 	"test": "vitest",
     "build": "vite build",
-    "postbuild": "del /f /s /q ..\\docs\\** && xcopy /Y .\\dist\\* ..\\docs\\ /E",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
